@@ -22,10 +22,22 @@ nav{
 
 }
 
+.menu{
+
+	background: #000000;
+	border-radius: 10px;
+	padding: 5px;
+}
+
 nav li {
 
 	display: inline;
 	margin: 0 0 0 15px;
+}
+
+.font-menu{
+
+	color: #ffffff;
 }
 
 nav a{
@@ -47,8 +59,10 @@ nav a{
 	display: inline-block;
 	vertical-align: top;
 	width: 30%;
-	
-	margin: 0 1.5%;
+	margin-top: 10px;
+	border-color: #000000;
+	border-width: 2px;
+	border-style: solid;
 }
 
 
