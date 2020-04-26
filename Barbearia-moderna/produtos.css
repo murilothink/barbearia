@@ -1,5 +1,6 @@
 header{
-	background: #CCCCCC;
+	background: linear-gradient(to bottom,  red, #ffffff) ;
+	
 }
 
 .caixa{
@@ -8,7 +9,7 @@ header{
 	width: 940px;
 	margin: 0 auto;
 	font-weight: bold;
-	padding: 30px 20px;
+	padding: 50px 20px;
 	box-sizing: border-box;
 
 
@@ -26,7 +27,8 @@ nav{
 
 	background: #000000;
 	border-radius: 10px;
-	padding: 5px;
+	padding: 10px 80px;
+
 }
 
 nav li {
@@ -35,9 +37,15 @@ nav li {
 	margin: 0 0 0 15px;
 }
 
+nav li:hover{
+	color: pink;
+}
+
 .font-menu{
 
 	color: #ffffff;
+	font-size: 20px;
+	margin: 32px;
 }
 
 nav a{
@@ -55,6 +63,8 @@ nav a{
 	padding: 50px 0;
 }
 
+
+
 .produto li{
 	display: inline-block;
 	vertical-align: top;
@@ -63,6 +73,23 @@ nav a{
 	border-color: #000000;
 	border-width: 2px;
 	border-style: solid;
+	border-radius: 20px;
+
+}
+
+.produto li:hover{
+	color: pink;
+	border-color: pink;
+	
+}
+
+.produto li:hover h2{
+	font-size: 40px;
+}
+
+.produto li:active{
+	color: red;
+	border-color: red;
 }
 
 
@@ -71,7 +98,6 @@ nav a{
 	font-weight:bold;
 	
 }
-
 
 .produto p {
 
